@@ -118,7 +118,7 @@ ul.education > li:last-of-type::before {
 
 ul.timescale > li::after,
 ul.education > li::after {
-  left: -6.5px;
+  left: -6px;
   top: 4pt;
   background: teal;
   border-radius: 50%;
