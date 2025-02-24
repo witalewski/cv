@@ -17,18 +17,18 @@ const Job = ({
     year: "numeric",
   });
   return (
-    <section className="bg-card flex flex-col gap-1 p-1">
+    <section className="bg-card flex flex-col gap-1">
       <div className="flex justify-between border-b text-lg">
-        <h2>
+        <h3>
           <span className="font-normal">{company}</span>
           {position && <span> &ndash; {position}</span>}
-        </h2>
+        </h3>
         <div>
           {dateFormat.format(startDate)} &ndash;{" "}
           {endDate ? dateFormat.format(endDate) : "Present"}
         </div>
       </div>
-      <div className="py-0.5">{children}</div>
+      <div>{children}</div>
     </section>
   );
 };
