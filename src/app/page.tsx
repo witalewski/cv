@@ -35,7 +35,9 @@ export default function Home() {
         <List>
           <ListItem>
             15+ years of development experience with modern stacks&mdash;
-            <span className="font-semibold">React, TypeScript and Node.js</span>
+            <span className="font-semibold">
+              React, TypeScript, and Node.js
+            </span>
           </ListItem>
           <ListItem>
             Always a <span className="font-semibold">team player</span> who is
