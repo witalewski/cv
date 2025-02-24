@@ -194,7 +194,7 @@ export default function Home() {
           <div>🐕 Taking care of a rescue dog named Batman</div>
           <div>⛵️ Avid sailor</div>
           <div>🎬 Film buff</div>
-          <div>🗣️ Speaks Polish, English and a bit of Spanish</div>
+          <div>💬 Speaks Polish, English and a bit of Spanish</div>
         </div>
       </Section>
     </main>
