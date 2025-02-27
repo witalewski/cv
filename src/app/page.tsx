@@ -10,7 +10,7 @@ export default function Home() {
       <div className="align-center flex justify-between">
         <h1 className="text-2xl font-normal">Krzysztof Adam Witalewski</h1>
         <div className="text-2xl font-normal text-gray-600">
-          Staff Software Engineer
+          Senior Software Engineer
         </div>
       </div>
       <div className="flex justify-between self-stretch border-b border-t py-0.5 font-normal">
@@ -36,7 +36,7 @@ export default function Home() {
           <ListItem>
             15+ years of development experience with modern stacks&mdash;
             <span className="font-semibold">
-              React, TypeScript, and Node.js
+              React, TypeScript, and Next.js
             </span>
           </ListItem>
           <ListItem>
