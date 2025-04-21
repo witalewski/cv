@@ -26,9 +26,8 @@ export default function Home() {
             className="underline"
             href="https://www.linkedin.com/in/witalewski/"
           >
-            LinkedIn
-          </Link>{" "}
-          profile
+            linkedin.com/in/witalewski
+          </Link>
         </div>
       </div>
       <Section title="Top Skills">
