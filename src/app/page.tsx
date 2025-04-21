@@ -93,17 +93,17 @@ export default function Home() {
           </Job>
           <Job
             company="Berry (YC W23)"
-            position="Senior Software Engineer"
+            position="Senior Software Engineer (fixed&ndash;term)"
             startDate={new Date("2023-01-01")}
             endDate={new Date("2023-04-01")}
           >
             <List>
               <ListItem>
-                Built a complete remote collaboration solution during the YC W23
-                batch (a fixed-term greenfield project)
+                Built an in-browser remote collaboration solution (like
+                TeamViewer) during the YC W23 batch
               </ListItem>
               <ListItem>
-                Tech Stack: TypeScript, React, CSS, Chrome API
+                Tech Stack: TypeScript, React, CSS, Chrome Extensions API
               </ListItem>
             </List>
           </Job>
@@ -162,7 +162,7 @@ export default function Home() {
                 media review and approval
               </ListItem>
               <ListItem>
-                The company was eventually acquired by Adobe for 1.5 billion USD
+                The company was later acquired by Adobe for 1.5 billion USD
               </ListItem>
               <ListItem>
                 Tech Stack: JavaScript, React, MobX, CSS-in-JS, Mocha,
