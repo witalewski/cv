@@ -14,14 +14,21 @@ export default function Home() {
         </div>
       </div>
       <div className="flex justify-between self-stretch border-b border-t py-0.5 font-normal">
-        <div>Poznań, Poland </div>
-        <Link className="screen:underline" href="tel:+48607193307">
-          +48607193307
-        </Link>
-        <Link className="screen:underline" href="mailto:witalewski@gmail.com">
-          witalewski@gmail.com
-        </Link>
+        <div>📍 Poznań, Poland </div>
         <div>
+          📱{" "}
+          <Link className="screen:underline" href="tel:+48607193307">
+            +48607193307
+          </Link>
+        </div>
+        <div>
+          ✉️{" "}
+          <Link className="screen:underline" href="mailto:witalewski@gmail.com">
+            witalewski@gmail.com
+          </Link>
+        </div>
+        <div>
+          🌍{" "}
           <Link
             className="underline"
             href="https://www.linkedin.com/in/witalewski/"
