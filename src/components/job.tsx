@@ -19,10 +19,13 @@ const Job = ({
   return (
     <section className="bg-card flex flex-col gap-1">
       <div className="flex justify-between border-b text-lg">
-        <h3>
-          <span className="font-normal">{company}</span>
-          {position && <span> &ndash; {position}</span>}
-        </h3>
+        <div className="flex">
+          <h3>
+            <span className="font-normal">{company}</span>
+          </h3>
+          {position && <h4>&nbsp;&ndash; {position}</h4>}
+        </div>
+
         <div>
           {dateFormat.format(startDate)} &ndash;{" "}
           {endDate ? dateFormat.format(endDate) : "Present"}
