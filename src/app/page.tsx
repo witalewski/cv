@@ -42,8 +42,9 @@ export default function Home() {
           <ListItem>
             15+ years of development experience with modern stacks&mdash;
             <span className="font-semibold">
-              React, TypeScript, and Next.js
+              React, React Native, TypeScript
             </span>
+            , and Next.js
           </ListItem>
           <ListItem>
             Always a <span className="font-semibold">team player</span> who is
@@ -65,56 +66,66 @@ export default function Home() {
       <Section title="Work experience">
         <div className="flex flex-col gap-2">
           <Job
-            company="Orchid (YC W23)"
+            company="Orchid (YCombinator W23)"
             position="Senior Software Engineer"
             startDate={new Date("2023-06-01")}
           >
             <List>
               <ListItem>
                 Built an AI note-taking assistant on top of an existing EHR
-                solution
+                solution in{" "}
+                <span className="font-semibold">React ant TypeScript</span>
+              </ListItem>
+              <ListItem>
+                Delivered a mobile application in{" "}
+                <span className="font-semibold">React Native</span> for
+                recording and transcribing meetings
               </ListItem>
               <ListItem>
                 Used technical SEO to bring Orchid&apos;s content to the front
                 page of Google search results
               </ListItem>
               <ListItem>
-                Established a process to rapidly develop new features based on
-                the fluctuating demands
-                <br />
-                of an emerging market while maintaining the existing 100k+ lines
-                of legacy code
-              </ListItem>
-              <ListItem>
-                Tech Stack: TypeScript, React, React Native, Redux, TanStack
-                Query, Python, FastAPI
+                Tech Stack: <span className="font-semibold">TypeScript</span>,{" "}
+                <span className="font-semibold">React</span>,{" "}
+                <span className="font-semibold">React Native</span>, Redux,
+                TanStack Query, Python, FastAPI
               </ListItem>
             </List>
           </Job>
           <Job
-            company="Berry (YC W23)"
+            company="Berry (YCombinator W23)"
             position="Senior Software Engineer (fixed&ndash;term)"
             startDate={new Date("2023-01-01")}
             endDate={new Date("2023-04-01")}
           >
             <List>
               <ListItem>
-                Built an in-browser remote collaboration solution (like
-                TeamViewer) during the YC W23 batch
+                Created a real-time in-browser remote collaboration solution
+                (like Figma) during the YC W23 batch
               </ListItem>
               <ListItem>
-                Tech Stack: TypeScript, React, CSS, Chrome Extensions API
+                Tech Stack: TypeScript,{" "}
+                <span className="font-semibold">React</span>, CSS, Chrome
+                Extensions API
               </ListItem>
             </List>
           </Job>
           <Job
             company="Walnut"
-            position="Senior  Full-Stack Engineer"
+            position="Senior Full-Stack Engineer"
             startDate={new Date("2022-09-01")}
             endDate={new Date("2022-12-01")}
           >
             <List>
-              <ListItem>Tech stack: ReScript, React, Elixir, GraphQL</ListItem>
+              <ListItem>
+                Enhanced website persistence algorithm in an advanced tech demo
+                platform
+              </ListItem>
+              <ListItem>
+                Tech stack: ReScript,{" "}
+                <span className="font-semibold">React</span>, Elixir, GraphQL
+              </ListItem>
             </List>
           </Job>
           <Job
@@ -133,8 +144,12 @@ export default function Home() {
                 technical solutions
               </ListItem>
               <ListItem>
-                Tech Stack: TypeScript, React Native with Native Modules, React
-                Native for Web, Redux
+                Tech Stack: <span className="font-semibold">TypeScript</span>,{" "}
+                <span className="font-semibold">
+                  React Native with Native Modules
+                </span>
+                , <span className="font-semibold">React Native for Web</span>,
+                Redux
               </ListItem>
             </List>
           </Job>
@@ -146,7 +161,9 @@ export default function Home() {
           >
             <List>
               <ListItem>
-                Tech Stack: TypeScript, React, Angular, Node.js, CSS-in-JS, Jest
+                Tech Stack: <span className="font-semibold">TypeScript</span>,{" "}
+                <span className="font-semibold">React</span>, Angular, Node.js,
+                CSS-in-JS, Jest
               </ListItem>
             </List>
           </Job>
@@ -165,8 +182,9 @@ export default function Home() {
                 The company was later acquired by Adobe for 1.5 billion USD
               </ListItem>
               <ListItem>
-                Tech Stack: JavaScript, React, MobX, CSS-in-JS, Mocha,
-                Previously: Apache Flex, ActionScript
+                Tech Stack: JavaScript,{" "}
+                <span className="font-semibold">React</span>, MobX, CSS-in-JS,
+                Mocha, Previously: Apache Flex, ActionScript
               </ListItem>
             </List>
           </Job>
