@@ -40,11 +40,10 @@ export default function Home() {
       <Section title="Top Skills">
         <List>
           <ListItem>
-            15+ years of development experience with modern stacks&mdash;
+            15+ years of development experience&mdash;
             <span className="font-semibold">
-              React, React Native, TypeScript
+              TypeScript, React, and React Native
             </span>
-            , and Next.js
           </ListItem>
           <ListItem>
             Always a <span className="font-semibold">team player</span> who is
@@ -93,7 +92,7 @@ export default function Home() {
               </ListItem>
             </List>
           </Job>
-          <Job
+          {/* <Job
             company="Berry (YCombinator W23)"
             position="Senior Software Engineer (fixed&ndash;term)"
             startDate={new Date("2023-01-01")}
@@ -110,27 +109,10 @@ export default function Home() {
                 Extensions API
               </ListItem>
             </List>
-          </Job>
-          <Job
-            company="Walnut"
-            position="Senior Full-Stack Engineer"
-            startDate={new Date("2022-09-01")}
-            endDate={new Date("2022-12-01")}
-          >
-            <List>
-              <ListItem>
-                Enhanced website persistence algorithm in an advanced tech demo
-                platform
-              </ListItem>
-              <ListItem>
-                Tech stack: ReScript,{" "}
-                <span className="font-semibold">React</span>, Elixir, GraphQL
-              </ListItem>
-            </List>
-          </Job>
+          </Job> */}
           <Job
             company="Kind"
-            position="Senior Front-End Engineer"
+            position="Senior Software Engineer"
             startDate={new Date("2019-10-01")}
             endDate={new Date("2022-08-01")}
           >
@@ -139,9 +121,10 @@ export default function Home() {
                 Developed mobile and web applications for multi-modal healthcare
                 communication
               </ListItem>
+              <ListItem>Onboarded and mentored new team members</ListItem>
               <ListItem>
-                Onboarded and mentored new team members; Led the adoption of new
-                technical solutions
+                Led the adoption of new technical solutions (React Hooks,
+                Reselect, Fastlane)
               </ListItem>
               <ListItem>
                 Tech Stack: <span className="font-semibold">TypeScript</span>,{" "}
@@ -150,20 +133,6 @@ export default function Home() {
                 </span>
                 , <span className="font-semibold">React Native for Web</span>,
                 Redux
-              </ListItem>
-            </List>
-          </Job>
-          <Job
-            company="Cleeng"
-            position="Senior Front-End Engineer"
-            startDate={new Date("2019-02-01")}
-            endDate={new Date("2019-09-01")}
-          >
-            <List>
-              <ListItem>
-                Tech Stack: <span className="font-semibold">TypeScript</span>,{" "}
-                <span className="font-semibold">React</span>, Angular, Node.js,
-                CSS-in-JS, Jest
               </ListItem>
             </List>
           </Job>
@@ -216,7 +185,7 @@ export default function Home() {
         </Job>
       </Section>
       <Section title="Personal Information">
-        <div className="flex justify-between py-0.5">
+        <div className="flex justify-between py-0.5 text-sm">
           <div>🐕 Taking care of a rescue dog named Batman</div>
           <div>⛵️ Avid sailor</div>
           <div>🎬 Film buff</div>
