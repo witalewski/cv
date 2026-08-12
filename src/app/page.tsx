@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex h-[296mm] w-[210mm] flex-col justify-between p-12 font-[family-name:var(--font-roboto-flex)] text-base font-light screen:border">
       <div className="align-center flex justify-between">
-        <h1 className="text-2xl font-normal">Krzysztof Adam Witalewski</h1>
+        <h1 className="text-2xl font-normal">Chris Witalewski</h1>
         <div className="text-2xl font-normal text-gray-600">
           Senior Software Engineer
         </div>
@@ -60,14 +60,42 @@ export default function Home() {
             <span className="font-semibold">maintainable</span>, yet{" "}
             <span className="font-semibold">highly performant</span> code
           </ListItem>
+          <ListItem>
+            Thriving in international, distributed and asynchronous teams&mdash;
+            <span className="font-semibold">working remotely since 2013</span>
+          </ListItem>
         </List>
       </Section>
       <Section title="Work experience">
         <div className="flex flex-col gap-2">
           <Job
-            company="Orchid (YCombinator W23)"
+            company="Cleo"
+            position="Senior Product Engineer"
+            startDate={new Date("2025-09-01")}
+          >
+            <List>
+              <ListItem>
+                Developed the mobile client for Money IQ, Cleo's trivia &
+                prize-draw game
+              </ListItem>
+              <ListItem>
+                Built interactive animated experiences in{" "}
+                <span className="font-semibold">React Native</span> with{" "}
+                <span className="font-semibold">Reanimated</span> and{" "}
+                <span className="font-semibold">Rive</span>
+              </ListItem>
+              <ListItem>
+                Designed and shipped a full-stack internal Workforce Planning
+                tool (
+                <span className="font-semibold">React, Prisma, Postgres</span>)
+              </ListItem>
+            </List>
+          </Job>
+          <Job
+            company="Orchid (Y Combinator W23)"
             position="Senior Software Engineer"
             startDate={new Date("2023-06-01")}
+            endDate={new Date("2025-08-31")}
           >
             <List>
               <ListItem>
@@ -123,10 +151,6 @@ export default function Home() {
               </ListItem>
               <ListItem>Onboarded and mentored new team members</ListItem>
               <ListItem>
-                Led the adoption of new technical solutions (React Hooks,
-                Reselect, Fastlane)
-              </ListItem>
-              <ListItem>
                 Tech Stack: <span className="font-semibold">TypeScript</span>,{" "}
                 <span className="font-semibold">
                   React Native with Native Modules
@@ -153,7 +177,7 @@ export default function Home() {
               <ListItem>
                 Tech Stack: JavaScript,{" "}
                 <span className="font-semibold">React</span>, MobX, CSS-in-JS,
-                Mocha, Previously: Apache Flex, ActionScript
+                Mocha, Previously: Apache Flex
               </ListItem>
             </List>
           </Job>
