@@ -13,7 +13,6 @@ const Job = ({
   endDate?: Date;
 }>) => {
   const dateFormat = new Intl.DateTimeFormat("en-GB", {
-    month: "short",
     year: "numeric",
   });
   return (

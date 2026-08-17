@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex h-[296mm] w-[210mm] flex-col justify-between p-12 font-[family-name:var(--font-roboto-flex)] text-base font-light screen:border">
       <div className="align-center flex justify-between">
-        <h1 className="text-2xl font-normal">Krzysztof Adam Witalewski</h1>
+        <h1 className="text-2xl font-normal">Chris Adam Witalewski</h1>
         <div className="text-2xl font-normal text-gray-600">
           Senior Software Engineer
         </div>
@@ -65,9 +65,33 @@ export default function Home() {
       <Section title="Work experience">
         <div className="flex flex-col gap-2">
           <Job
+            company="Cleo"
+            position="Senior Product Engineer"
+            startDate={new Date("2025-09-01")}
+          >
+            <List>
+              <ListItem>
+                Developed the mobile client for Money IQ, Cleo's trivia &
+                prize-draw game
+              </ListItem>
+              <ListItem>
+                Built interactive animated experiences in{" "}
+                <span className="font-semibold">React Native</span> with{" "}
+                <span className="font-semibold">Reanimated</span> and{" "}
+                <span className="font-semibold">Rive</span>
+              </ListItem>
+              <ListItem>
+                Designed and shipped a full-stack internal Workforce Planning
+                tool (
+                <span className="font-semibold">React, Prisma, Postgres</span>)
+              </ListItem>
+            </List>
+          </Job>
+          <Job
             company="Orchid (YC W23)"
             position="Senior Software Engineer"
             startDate={new Date("2023-06-01")}
+            endDate={new Date("2025-09-01")}
           >
             <List>
               <ListItem>
@@ -86,8 +110,11 @@ export default function Home() {
                 of legacy code
               </ListItem>
               <ListItem>
-                Tech Stack: TypeScript, React, React Native, Redux, TanStack
-                Query, Python, FastAPI
+                Tech Stack:{" "}
+                <span className="font-semibold">
+                  TypeScript, React, React Native, Redux, TanStack Query
+                </span>
+                , Python, FastAPI
               </ListItem>
             </List>
           </Job>
@@ -103,18 +130,10 @@ export default function Home() {
                 TeamViewer) during the YC W23 batch
               </ListItem>
               <ListItem>
-                Tech Stack: TypeScript, React, CSS, Chrome Extensions API
+                Tech Stack:{" "}
+                <span className="font-semibold">TypeScript, React</span>, CSS,
+                Chrome Extensions API
               </ListItem>
-            </List>
-          </Job>
-          <Job
-            company="Walnut"
-            position="Senior  Full-Stack Engineer"
-            startDate={new Date("2022-09-01")}
-            endDate={new Date("2022-12-01")}
-          >
-            <List>
-              <ListItem>Tech stack: ReScript, React, Elixir, GraphQL</ListItem>
             </List>
           </Job>
           <Job
@@ -133,20 +152,11 @@ export default function Home() {
                 technical solutions
               </ListItem>
               <ListItem>
-                Tech Stack: TypeScript, React Native with Native Modules, React
-                Native for Web, Redux
-              </ListItem>
-            </List>
-          </Job>
-          <Job
-            company="Cleeng"
-            position="Senior Front-End Engineer"
-            startDate={new Date("2019-02-01")}
-            endDate={new Date("2019-09-01")}
-          >
-            <List>
-              <ListItem>
-                Tech Stack: TypeScript, React, Angular, Node.js, CSS-in-JS, Jest
+                Tech Stack:{" "}
+                <span className="font-semibold">
+                  TypeScript, React Native with Native Modules, React Native for
+                  Web, Redux
+                </span>
               </ListItem>
             </List>
           </Job>
