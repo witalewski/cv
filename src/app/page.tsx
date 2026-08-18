@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex h-[296mm] w-[210mm] flex-col justify-between p-12 font-[family-name:var(--font-roboto-flex)] text-base font-light screen:border">
       <div className="align-center flex justify-between">
-        <h1 className="text-2xl font-normal">Chris Adam Witalewski</h1>
+        <h1 className="text-2xl font-normal">Chris Witalewski</h1>
         <div className="text-2xl font-normal text-gray-600">
           Senior Software Engineer
         </div>
@@ -40,9 +40,9 @@ export default function Home() {
       <Section title="Top Skills">
         <List>
           <ListItem>
-            15+ years of development experience with modern stacks&mdash;
+            15+ years of development experience&mdash;
             <span className="font-semibold">
-              React, TypeScript, and Next.js
+              TypeScript, React, and React Native
             </span>
           </ListItem>
           <ListItem>
@@ -59,6 +59,10 @@ export default function Home() {
             <span className="font-semibold">simple</span> and{" "}
             <span className="font-semibold">maintainable</span>, yet{" "}
             <span className="font-semibold">highly performant</span> code
+          </ListItem>
+          <ListItem>
+            Thriving in international, distributed and asynchronous teams&mdash;
+            <span className="font-semibold">working remotely since 2013</span>
           </ListItem>
         </List>
       </Section>
@@ -88,26 +92,25 @@ export default function Home() {
             </List>
           </Job>
           <Job
-            company="Orchid (YC W23)"
+            company="Orchid (Y Combinator W23)"
             position="Senior Software Engineer"
             startDate={new Date("2023-06-01")}
-            endDate={new Date("2025-09-01")}
+            endDate={new Date("2025-08-31")}
           >
             <List>
               <ListItem>
                 Built an AI note-taking assistant on top of an existing EHR
-                solution
+                solution in{" "}
+                <span className="font-semibold">React ant TypeScript</span>
+              </ListItem>
+              <ListItem>
+                Delivered a mobile application in{" "}
+                <span className="font-semibold">React Native</span> for
+                recording and transcribing meetings
               </ListItem>
               <ListItem>
                 Used technical SEO to bring Orchid&apos;s content to the front
                 page of Google search results
-              </ListItem>
-              <ListItem>
-                Established a process to rapidly develop new features based on
-                the fluctuating demands
-                <br />
-                of an emerging market while maintaining the existing 100k+ lines
-                of legacy code
               </ListItem>
               <ListItem>
                 Tech Stack:{" "}
@@ -118,16 +121,16 @@ export default function Home() {
               </ListItem>
             </List>
           </Job>
-          <Job
-            company="Berry (YC W23)"
+          {/* <Job
+            company="Berry (YCombinator W23)"
             position="Senior Software Engineer (fixed&ndash;term)"
             startDate={new Date("2023-01-01")}
             endDate={new Date("2023-04-01")}
           >
             <List>
               <ListItem>
-                Built an in-browser remote collaboration solution (like
-                TeamViewer) during the YC W23 batch
+                Created a real-time in-browser remote collaboration solution
+                (like Figma) during the YC W23 batch
               </ListItem>
               <ListItem>
                 Tech Stack:{" "}
@@ -138,7 +141,7 @@ export default function Home() {
           </Job>
           <Job
             company="Kind"
-            position="Senior Front-End Engineer"
+            position="Senior Software Engineer"
             startDate={new Date("2019-10-01")}
             endDate={new Date("2022-08-01")}
           >
@@ -147,6 +150,7 @@ export default function Home() {
                 Developed mobile and web applications for multi-modal healthcare
                 communication
               </ListItem>
+              <ListItem>Onboarded and mentored new team members</ListItem>
               <ListItem>
                 Onboarded and mentored new team members; Led the adoption of new
                 technical solutions
@@ -175,8 +179,9 @@ export default function Home() {
                 The company was later acquired by Adobe for 1.5 billion USD
               </ListItem>
               <ListItem>
-                Tech Stack: JavaScript, React, MobX, CSS-in-JS, Mocha,
-                Previously: Apache Flex, ActionScript
+                Tech Stack: JavaScript,{" "}
+                <span className="font-semibold">React</span>, MobX, CSS-in-JS,
+                Mocha, Previously: Apache Flex
               </ListItem>
             </List>
           </Job>
@@ -208,7 +213,7 @@ export default function Home() {
         </Job>
       </Section>
       <Section title="Personal Information">
-        <div className="flex justify-between py-0.5">
+        <div className="flex justify-between py-0.5 text-sm">
           <div>🐕 Taking care of a rescue dog named Batman</div>
           <div>⛵️ Avid sailor</div>
           <div>🎬 Film buff</div>
