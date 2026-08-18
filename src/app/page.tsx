@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex h-[296mm] w-[210mm] flex-col justify-between p-12 font-[family-name:var(--font-roboto-flex)] text-base font-light screen:border">
       <div className="align-center flex justify-between">
-        <h1 className="text-2xl font-normal">Chris Adam Witalewski</h1>
+        <h1 className="text-2xl font-normal">Chris Witalewski</h1>
         <div className="text-2xl font-normal text-gray-600">
           Senior Software Engineer
         </div>
@@ -72,7 +72,7 @@ export default function Home() {
             <List>
               <ListItem>
                 Developed the mobile client for Money IQ, Cleo's trivia &
-                prize-draw game
+                prize-draw game to drive organic growth
               </ListItem>
               <ListItem>
                 Built interactive animated experiences in{" "}
@@ -103,13 +103,6 @@ export default function Home() {
                 page of Google search results
               </ListItem>
               <ListItem>
-                Established a process to rapidly develop new features based on
-                the fluctuating demands
-                <br />
-                of an emerging market while maintaining the existing 100k+ lines
-                of legacy code
-              </ListItem>
-              <ListItem>
                 Tech Stack:{" "}
                 <span className="font-semibold">
                   TypeScript, React, React Native, Redux, TanStack Query
@@ -126,8 +119,8 @@ export default function Home() {
           >
             <List>
               <ListItem>
-                Built an in-browser remote collaboration solution (like
-                TeamViewer) during the YC W23 batch
+                Built an in-browser remote collaboration solution 0 &#8594; 1
+                during the 3-month incubator batch
               </ListItem>
               <ListItem>
                 Tech Stack:{" "}
@@ -168,15 +161,11 @@ export default function Home() {
           >
             <List>
               <ListItem>
-                Developed a web application and browser extensions for digital
-                media review and approval
+                Built a web application and browser extensions for digital media
+                review and approval
               </ListItem>
               <ListItem>
-                The company was later acquired by Adobe for 1.5 billion USD
-              </ListItem>
-              <ListItem>
-                Tech Stack: JavaScript, React, MobX, CSS-in-JS, Mocha,
-                Previously: Apache Flex, ActionScript
+                The company was eventually acquired by Adobe for 1.5 billion USD
               </ListItem>
             </List>
           </Job>
@@ -207,9 +196,9 @@ export default function Home() {
           </div>
         </Job>
       </Section>
-      <Section title="Personal Information">
+      <Section title="Personal Life and Hobbies">
         <div className="flex justify-between py-0.5">
-          <div>🐕 Taking care of a rescue dog named Batman</div>
+          <div>🐕 Caring for a rescue dog named Batman</div>
           <div>⛵️ Avid sailor</div>
           <div>🎬 Film buff</div>
           <div>💬 Speaks Polish, English, and a bit of Spanish</div>

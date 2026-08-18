@@ -18,7 +18,7 @@ const robotoFlex = Roboto_Flex({
 });
 
 export const metadata: Metadata = {
-  title: "CV - Krzysztof Adam Witalewski - Staff Software Engineer",
+  title: "CV - Chris Witalewski - Senior Software Engineer",
 };
 
 export default function RootLayout({
