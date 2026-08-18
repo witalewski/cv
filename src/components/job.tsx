@@ -12,7 +12,8 @@ const Job = ({
   startDate: Date;
   endDate?: Date;
 }>) => {
-  const dateFormat = new Intl.DateTimeFormat("en-GB", {
+  const dateFormat = new Intl.DateTimeFormat("en-US", {
+    // month: "short",
     year: "numeric",
   });
   return (

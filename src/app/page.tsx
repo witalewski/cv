@@ -89,7 +89,7 @@ export default function Home() {
             company="Orchid (Y Combinator W23)"
             position="Senior Software Engineer"
             startDate={new Date("2023-06-01")}
-            endDate={new Date("2025-09-01")}
+            endDate={new Date("2025-08-31")}
           >
             <List>
               <ListItem>
