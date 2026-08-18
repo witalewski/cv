@@ -71,7 +71,7 @@ export default function Home() {
           >
             <List>
               <ListItem>
-                Developed the mobile client for Money IQ, Cleo's trivia &
+                Developed the mobile client for Money IQ, Cleo&apos;s trivia &
                 prize-draw game to drive organic growth
               </ListItem>
               <ListItem>
