@@ -113,10 +113,11 @@ export default function Home() {
                 page of Google search results
               </ListItem>
               <ListItem>
-                Tech Stack: <span className="font-semibold">TypeScript</span>,{" "}
-                <span className="font-semibold">React</span>,{" "}
-                <span className="font-semibold">React Native</span>, Redux,
-                TanStack Query, Python, FastAPI
+                Tech Stack:{" "}
+                <span className="font-semibold">
+                  TypeScript, React, React Native, Redux, TanStack Query
+                </span>
+                , Python, FastAPI
               </ListItem>
             </List>
           </Job>
@@ -132,12 +133,12 @@ export default function Home() {
                 (like Figma) during the YC W23 batch
               </ListItem>
               <ListItem>
-                Tech Stack: TypeScript,{" "}
-                <span className="font-semibold">React</span>, CSS, Chrome
-                Extensions API
+                Tech Stack:{" "}
+                <span className="font-semibold">TypeScript, React</span>, CSS,
+                Chrome Extensions API
               </ListItem>
             </List>
-          </Job> */}
+          </Job>
           <Job
             company="Kind"
             position="Senior Software Engineer"
@@ -151,12 +152,15 @@ export default function Home() {
               </ListItem>
               <ListItem>Onboarded and mentored new team members</ListItem>
               <ListItem>
-                Tech Stack: <span className="font-semibold">TypeScript</span>,{" "}
+                Onboarded and mentored new team members; Led the adoption of new
+                technical solutions
+              </ListItem>
+              <ListItem>
+                Tech Stack:{" "}
                 <span className="font-semibold">
-                  React Native with Native Modules
+                  TypeScript, React Native with Native Modules, React Native for
+                  Web, Redux
                 </span>
-                , <span className="font-semibold">React Native for Web</span>,
-                Redux
               </ListItem>
             </List>
           </Job>
