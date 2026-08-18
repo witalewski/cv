@@ -13,20 +13,23 @@ export default function Home() {
           Senior Software Engineer
         </div>
       </div>
-      <div className="flex justify-between self-stretch border-b border-t py-0.5 font-normal">
+      <div className="flex justify-between self-stretch py-0.5 font-normal">
         <div>📍 Poznań, Poland </div>
+        <div>·</div>
         <div>
           📱{" "}
           <Link className="screen:underline" href="tel:+48607193307">
             +48607193307
           </Link>
         </div>
+        <div>·</div>
         <div>
           ✉️{" "}
           <Link className="screen:underline" href="mailto:witalewski@gmail.com">
             witalewski@gmail.com
           </Link>
         </div>
+        <div>·</div>
         <div>
           🌍{" "}
           <Link
@@ -37,30 +40,25 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <Section title="Top Skills">
+      <Section title="Summary">
         <List>
           <ListItem>
-            15+ years of development experience with modern stacks&mdash;
-            <span className="font-semibold">
-              React, TypeScript, and Next.js
-            </span>
+            Senior Software Engineer with 16 years of professional experience
+            building web and mobile products
           </ListItem>
           <ListItem>
-            Always a <span className="font-semibold">team player</span> who is
-            willing to help others to increase overall team productivity
+            Track record of shipping 0→1 products, AI-enabled features, growth
+            initiatives and full-stack internal tools
           </ListItem>
           <ListItem>
-            <span className="font-semibold">Pragmatic</span> and{" "}
-            <span className="font-semibold">results-oriented</span>, with solid
-            analytical and resource management skills
-          </ListItem>
-          <ListItem>
-            Passionate about writing{" "}
-            <span className="font-semibold">simple</span> and{" "}
-            <span className="font-semibold">maintainable</span>, yet{" "}
-            <span className="font-semibold">highly performant</span> code
+            Pragmatic, product-minded engineer focused on simple, maintainable
+            systems and high team leverage
           </ListItem>
         </List>
+      </Section>
+      <Section title="Skills">
+        TypeScript, React, React Native, Next.js, Redux, TanStack Query, Jest,
+        Reanimated, Rive, Python, FastAPI, Prisma, PostgreSQL
       </Section>
       <Section title="Work experience">
         <div className="flex flex-col gap-2">
@@ -71,36 +69,40 @@ export default function Home() {
           >
             <List>
               <ListItem>
-                Developed the mobile client for Money IQ, Cleo&apos;s trivia &
-                prize-draw game to drive organic growth
+                Built the React Native client for Money IQ, a trivia and
+                prize-draw product designed to drive organic growth
               </ListItem>
               <ListItem>
-                Built interactive animated experiences in{" "}
-                <span className="font-semibold">React Native</span> with{" "}
+                Created interactive animated experiences using{" "}
                 <span className="font-semibold">Reanimated</span> and{" "}
                 <span className="font-semibold">Rive</span>
               </ListItem>
               <ListItem>
                 Designed and shipped a full-stack internal Workforce Planning
                 tool (
-                <span className="font-semibold">React, Prisma, Postgres</span>)
+                <span className="font-semibold">React, Prisma, PostgreSQL</span>
+                )
               </ListItem>
             </List>
           </Job>
           <Job
-            company="Orchid (YC W23)"
+            company="Orchid (Y Combinator W23)"
             position="Senior Software Engineer"
             startDate={new Date("2023-06-01")}
             endDate={new Date("2025-09-01")}
           >
             <List>
               <ListItem>
-                Built an AI note-taking assistant on top of an existing EHR
-                solution
+                Built an AI note-taking assistant integrated into an existing
+                EHR product
               </ListItem>
               <ListItem>
-                Used technical SEO to bring Orchid&apos;s content to the front
-                page of Google search results
+                Applied technical SEO that moved Orchid content onto page one of
+                Google Search
+              </ListItem>
+              <ListItem>
+                Owned the mobile recorder implementation from technical design
+                through launch
               </ListItem>
               <ListItem>
                 Tech Stack:{" "}
@@ -112,20 +114,18 @@ export default function Home() {
             </List>
           </Job>
           <Job
-            company="Berry (YC W23)"
-            position="Senior Software Engineer (fixed&ndash;term)"
+            company="Berry (Y Combinator W23)"
+            position="Senior Software Engineer (fixed-term)"
             startDate={new Date("2023-01-01")}
             endDate={new Date("2023-04-01")}
           >
             <List>
               <ListItem>
-                Built an in-browser remote collaboration solution 0 &#8594; 1
+                Built an in-browser, real-time remote collaboration solution 0→1
                 during the 3-month incubator batch
               </ListItem>
               <ListItem>
-                Tech Stack:{" "}
-                <span className="font-semibold">TypeScript, React</span>, CSS,
-                Chrome Extensions API
+                Owned the technical architecture and stack selection
               </ListItem>
             </List>
           </Job>
@@ -140,16 +140,12 @@ export default function Home() {
                 Developed mobile and web applications for multi-modal healthcare
                 communication
               </ListItem>
+              <ListItem>Onboarded and mentored new team members</ListItem>
               <ListItem>
-                Onboarded and mentored new team members; Led the adoption of new
-                technical solutions
-              </ListItem>
-              <ListItem>
-                Tech Stack:{" "}
-                <span className="font-semibold">
-                  TypeScript, React Native with Native Modules, React Native for
-                  Web, Redux
-                </span>
+                Drove adoption of{" "}
+                <span className="font-semibold">TypeScript</span> and{" "}
+                <span className="font-semibold">React Hooks</span>, replacing
+                JavaScript and Recompose
               </ListItem>
             </List>
           </Job>
@@ -162,10 +158,10 @@ export default function Home() {
             <List>
               <ListItem>
                 Built a web application and browser extensions for digital media
-                review and approval
+                review for millions of daily active users
               </ListItem>
               <ListItem>
-                The company was eventually acquired by Adobe for 1.5 billion USD
+                The company was eventually acquired by Adobe for $1.5B
               </ListItem>
             </List>
           </Job>
@@ -174,13 +170,14 @@ export default function Home() {
             position="Full-Stack Developer"
             startDate={new Date("2010-09-01")}
             endDate={new Date("2012-12-01")}
-          />
-          <Job
-            company="goEuropa"
-            position="Software Developer"
-            startDate={new Date("2009-05-01")}
-            endDate={new Date("2010-09-01")}
-          />
+          >
+            <List>
+              <ListItem>
+                Migrated enterprise websites from a legacy CMS to Adobe CQ/WCM
+              </ListItem>
+              <ListItem>Built an e-detailing iPad app</ListItem>
+            </List>
+          </Job>
         </div>
       </Section>
       <Section title="Education">
@@ -196,11 +193,14 @@ export default function Home() {
           </div>
         </Job>
       </Section>
-      <Section title="Personal Life and Hobbies">
+      <Section title="Personal Life">
         <div className="flex justify-between py-0.5">
           <div>🐕 Caring for a rescue dog named Batman</div>
+          <div>·</div>
           <div>⛵️ Avid sailor</div>
+          <div>·</div>
           <div>🎬 Film buff</div>
+          <div>·</div>
           <div>💬 Speaks Polish, English, and a bit of Spanish</div>
         </div>
       </Section>
