@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Roboto_Flex } from "next/font/google";
 import "./globals.css";
+import { TITLE } from "@/constants";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,7 +19,7 @@ const robotoFlex = Roboto_Flex({
 });
 
 export const metadata: Metadata = {
-  title: "CV - Chris Witalewski - Senior Software Engineer",
+  title: `CV - Chris Witalewski - ${TITLE}`,
 };
 
 export default function RootLayout({

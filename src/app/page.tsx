@@ -2,6 +2,7 @@ import Job from "@/components/job";
 import List from "@/components/list";
 import ListItem from "@/components/list-item";
 import Section from "@/components/section";
+import { TITLE } from "@/constants";
 import Link from "next/link";
 
 export default function Home() {
@@ -9,9 +10,7 @@ export default function Home() {
     <main className="flex h-[296mm] w-[210mm] flex-col justify-between p-12 font-[family-name:var(--font-roboto-flex)] text-base font-light screen:border">
       <div className="align-center flex justify-between">
         <h1 className="text-2xl font-normal">Chris Witalewski</h1>
-        <div className="text-2xl font-normal text-gray-600">
-          Senior Software Engineer
-        </div>
+        <div className="text-2xl font-normal text-gray-600">{TITLE}</div>
       </div>
       <div className="flex justify-between self-stretch py-0.5 font-normal">
         <div>📍 Poznań, Poland </div>
@@ -43,8 +42,8 @@ export default function Home() {
       <Section title="Summary">
         <List>
           <ListItem>
-            Senior Software Engineer with 16 years of professional experience
-            building web and mobile products
+            {TITLE} with 16 years of professional experience building web and
+            mobile products
           </ListItem>
           <ListItem>
             Track record of shipping 0→1 products, AI-enabled features, growth
