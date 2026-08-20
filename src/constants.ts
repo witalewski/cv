@@ -1,1 +1,1 @@
-export const TITLE = "Sxenior Software Engineer";
+export const TITLE = "Senior Software Engineer";
