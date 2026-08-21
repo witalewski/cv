@@ -23,11 +23,11 @@ const Job = ({
           <h3>
             <span className="font-normal">{company}</span>
           </h3>
-          {position && <h4>&nbsp;&ndash; {position}</h4>}
+          {position && <h4>&nbsp;-&nbsp;{position}</h4>}
         </div>
 
         <div>
-          {dateFormat.format(startDate)} &ndash;{" "}
+          {dateFormat.format(startDate)}&nbsp;-&nbsp;
           {endDate ? dateFormat.format(endDate) : "Present"}
         </div>
       </div>
