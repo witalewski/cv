@@ -8,35 +8,26 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex h-[296mm] w-[210mm] flex-col justify-between p-12 font-[family-name:var(--font-roboto-flex)] text-base font-light screen:border">
-      <div className="align-center flex justify-between">
-        <h1 className="text-2xl font-normal">Chris Witalewski</h1>
-        <div className="text-2xl font-normal text-gray-600">{TITLE}</div>
-      </div>
-      <div className="flex justify-between self-stretch py-0.5 font-normal">
-        <div>📍 Poznań, Poland </div>
-        <div>·</div>
-        <div>
-          📱{" "}
-          <Link className="screen:underline" href="tel:+48607193307">
-            +48607193307
-          </Link>
+      <div className="flex justify-between">
+        <div className="flex flex-col">
+          <h1 className="text-2xl font-normal">Chris Witalewski</h1>
+          <div className="text-xl font-normal text-gray-600">{TITLE}</div>
         </div>
-        <div>·</div>
-        <div>
-          ✉️{" "}
-          <Link className="screen:underline" href="mailto:witalewski@gmail.com">
-            witalewski@gmail.com
-          </Link>
-        </div>
-        <div>·</div>
-        <div>
-          🌍{" "}
-          <Link
-            className="underline"
-            href="https://www.linkedin.com/in/witalewski/"
-          >
-            linkedin.com/in/witalewski
-          </Link>
+        <div className="flex flex-col items-end self-stretch py-0.5 font-normal">
+          <div>📍 Poznań, Poland </div>
+          <div>
+            📱 <Link href="tel:+48607193307">+48607193307</Link>
+          </div>
+          <div>
+            ✉️{" "}
+            <Link href="mailto:witalewski@gmail.com">witalewski@gmail.com</Link>
+          </div>
+          <div>
+            🌍{" "}
+            <Link href="https://www.linkedin.com/in/witalewski/">
+              linkedin.com/in/witalewski
+            </Link>
+          </div>
         </div>
       </div>
       <Section title="Summary">
@@ -259,8 +250,10 @@ export default function Home() {
           endDate={new Date("2010-07-01")}
         >
           <div>
-            Master of Science Degree in Computer Science with specialisation in
-            Software Engineering
+            <span className="font-semibold">Master of Science</span> Degree in{" "}
+            <span className="font-semibold">Computer Science</span> from the
+            Department of{" "}
+            <span className="font-semibold">Artificial Intelligence</span>
           </div>
         </Job>
       </Section>
