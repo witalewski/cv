@@ -250,7 +250,7 @@ export default function Home() {
           endDate={new Date("2010-07-01")}
         >
           <div>
-            <span className="font-semibold">Master of Science</span> Degree in{" "}
+            <span className="font-semibold">Master of Science</span> degree in{" "}
             <span className="font-semibold">Computer Science</span> from the
             Department of{" "}
             <span className="font-semibold">Artificial Intelligence</span>
